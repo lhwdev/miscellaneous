@@ -10,7 +10,7 @@ services:
     environment:
       TYPE: NEOFORGE
       VERSION: 1.21.1
-      NEOFORGE_VERSION: 21.1.109
+      NEOFORGE_VERSION: 21.1.209
       EULA: true
 
       MEMORY: 10g
