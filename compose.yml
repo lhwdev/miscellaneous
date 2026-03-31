@@ -1,12 +1,22 @@
 services:
   mc:
-    image: lhwdev/mc-railway-server:latest
+    image: itzg/minecraft-server:latest
     pull_policy: daily
     tty: true
     stdin_open: true
     ports:
-      - "25565:25565"
+      - "25564:25565"
+
     environment:
+      TYPE: NEOFORGE
+      VERSION: 1.21.1
+      NEOFORGE_VERSION: 21.1.109
       EULA: true
+
+      MEMORY: 10g
+      USE_AIKAR_FLAGS: true
+
+      MOTD: "§cS§aC§9G§f 공?식 모딩 서버§r by §6이현우"
+
     volumes:
       - /home/scg/lhwdev/mc-railways-server/data:/data
