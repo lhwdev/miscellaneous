@@ -1,3 +1,4 @@
+name: lhwdev-mc-railway
 services:
   lhwdev-mc-railway:
     image: itzg/minecraft-server:latest
