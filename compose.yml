@@ -19,4 +19,4 @@ services:
       MOTD: "§cS§aC§9G§f 공?식 모딩 서버§r by §6이현우"
 
     volumes:
-      - /home/scg/lhwdev/mc-railways-server/data:/data
+      - /home/scg/lhwdev/mc-railway-server/data:/data
